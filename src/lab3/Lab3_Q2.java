@@ -1,10 +1,17 @@
 package lab3;
+import java.util.*;
 
 public class Lab3_Q2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER the String value");
+		String s1 = sc.nextLine();
+		String reverse = new StringBuffer(s1).reverse().toString();
 
+		System.out.println(s1 + "|" + reverse);
+		sc.close();
+	
 	}
 
 }
